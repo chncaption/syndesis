@@ -29,7 +29,7 @@
   <packaging>jar</packaging>
 
   <properties>
-    <olingo.version>4.8.0</olingo.version>
+    <olingo.version>4.10.0</olingo.version>
   </properties>
 
   <dependencyManagement>
