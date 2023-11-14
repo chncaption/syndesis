@@ -64,7 +64,7 @@
     <kubernetes.client.version>4.13.3</kubernetes.client.version>
 
     <spring.version>5.3.18</spring.version>
-    <spring-boot.version>2.5.12</spring-boot.version>
+    <spring-boot.version>3.0.0</spring-boot.version>
     <spring-social.version>1.1.6.RELEASE</spring-social.version>
     <spring-social-twitter.version>1.1.2.RELEASE</spring-social-twitter.version>
     <!-- When updating spring-cloud version, you should update spring-cloud-starter-zipkin dependency below -->
@@ -76,7 +76,7 @@
     <org.apache.httpclient.version>4.5.13</org.apache.httpclient.version>
     <tomcat.version>9.0.36</tomcat.version>
 
-    <swagger.version>2.1.9</swagger.version>
+    <swagger.version>2.2.4</swagger.version>
     <swagger-maven-plugin.version>3.1.8</swagger-maven-plugin.version>
 
     <activemq.version>5.15.14</activemq.version>
@@ -436,7 +436,7 @@
             <executions>
               <execution>
                 <id>default-testCompile</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -446,7 +446,7 @@
             <executions>
               <execution>
                 <id>default-testResources</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -457,11 +457,11 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
               <execution>
                 <id>basepom.default-it</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -471,7 +471,7 @@
             <executions>
               <execution>
                 <id>default-test</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -482,7 +482,7 @@
             <version>${exec-maven-plugin.version}</version>
             <executions>
               <execution>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -492,7 +492,7 @@
             <executions>
               <execution>
                 <id>default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -502,7 +502,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -513,11 +513,11 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
               <execution>
                 <id>spotbugs</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -528,7 +528,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -538,7 +538,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -548,7 +548,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -559,7 +559,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -570,7 +570,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -581,7 +581,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -591,7 +591,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -601,11 +601,11 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
               <execution>
                 <id>basepom.default-it</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -615,7 +615,7 @@
             <executions>
               <execution>
                 <id>create-tool-jar</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -626,7 +626,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -673,7 +673,7 @@
             <executions>
               <execution>
                 <id>default-testResources</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -682,7 +682,7 @@
             <executions>
               <execution>
                 <id>default-testCompile</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -692,7 +692,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -701,7 +701,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -711,11 +711,11 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
               <execution>
                 <id>basepom.default-it</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -724,11 +724,11 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
               <execution>
                 <id>basepom.default-it</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -737,11 +737,11 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
               <execution>
                 <id>attach-javadocs</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -750,7 +750,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -759,7 +759,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -769,7 +769,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -779,7 +779,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -789,7 +789,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -798,7 +798,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -807,7 +807,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -817,7 +817,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -826,7 +826,7 @@
             <executions>
               <execution>
                 <id>default-test</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -836,7 +836,7 @@
             <executions>
               <execution>
                 <id>default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -846,7 +846,7 @@
             <version>${exec-maven-plugin.version}</version>
             <executions>
               <execution>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -855,7 +855,7 @@
             <executions>
               <execution>
                 <id>default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -865,11 +865,11 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
               <execution>
                 <id>spotbugs</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -879,7 +879,7 @@
             <executions>
               <execution>
                 <id>basepom.default</id>
-                <phase />
+                <phase/>
               </execution>
             </executions>
           </plugin>
@@ -951,7 +951,7 @@
       <id>autofix</id>
       <properties>
         <!-- -Werror is given to javac it never reaches the GENERATE task, and fails in COMPILATION, and refactorings are applied in GENERATE task, so they would be skipped -->
-        <javac.werror></javac.werror>
+        <javac.werror/>
         <errorprone.autofix.arg1>-XepPatchChecks:BadImport,DeadException,DefaultCharset,MissingOverride,UnnecessaryParentheses,UnusedVariable,UnusedMethod,FieldCanBeFinal,MethodCanBeStatic,ClassCanBeStatic,RemoveUnusedImports,ThrowsUncheckedException,EmptyBlockTag,UnnecessaryMethodReference,ProtectedMembersInFinalClass,InvalidParam,NonCanonicalType,ZoneIdOfZ</errorprone.autofix.arg1>
         <errorprone.autofix.arg2>-XepPatchLocation:IN_PLACE</errorprone.autofix.arg2>
       </properties>
@@ -1444,7 +1444,7 @@
           <executions>
             <execution>
               <id>basepom.default</id>
-              <phase />
+              <phase/>
             </execution>
           </executions>
         </plugin>
@@ -1507,7 +1507,7 @@
                 Jurisdiction Policy Files to this
                 JVM.</message>
               <condition>javax.crypto.Cipher.getMaxAllowedKeyLength("AES")
-                > 128</condition>
+                &gt; 128</condition>
             </evaluateBeanshell>
             <bannedDependencies>
               <excludes>
@@ -1530,7 +1530,7 @@
               <message>camel-test brings in junit:junit</message>
               <searchTransitive>false</searchTransitive>
             </bannedDependencies>
-            <dependencyConvergence />
+            <dependencyConvergence/>
           </rules>
         </configuration>
         <executions>
