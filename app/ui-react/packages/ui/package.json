@@ -89,7 +89,7 @@
     "@patternfly/react-styles": "^4.11.0",
     "@patternfly/react-table": "^4.29.0",
     "@patternfly/react-tokens": "^4.12.0",
-    "@patternfly/react-topology": "^4.9.6",
+    "@patternfly/react-topology": "^4.72.10",
     "@syndesis/history": "*",
     "classnames": "^2.2.6",
     "codemirror": "^5.46.0",
