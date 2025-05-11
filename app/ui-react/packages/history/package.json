@@ -32,7 +32,7 @@
     "test-disabled": "karma start --single-run"
   },
   "dependencies": {
-    "@babel/runtime": "^7.1.2",
+    "@babel/runtime": "^7.26.10",
     "loose-envify": "^1.2.0",
     "resolve-pathname": "^3.0.0",
     "tiny-invariant": "^1.0.2",
