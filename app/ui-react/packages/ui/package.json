@@ -92,7 +92,7 @@
     "@patternfly/react-topology": "^4.9.6",
     "@syndesis/history": "*",
     "classnames": "^2.2.6",
-    "codemirror": "^5.46.0",
+    "codemirror": "^6.0.0",
     "freemarker-parser": "1.1.6",
     "mustache": "3.2.1",
     "react-codemirror2": "^6.0.0",
